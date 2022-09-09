@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karim Sendesni</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+    <div class="top-margin-100"></div>
+    <section class="index-heading">
+        <h3 class="hollow-text">@</h3>
+        <section class="index-heading-links">
+            <button id="contact-inspiration"><a href="../html/inspiration.html">Inspiration</a></button>
+            <button id="contact-home"><a href="../index.html">Hem</a></button>
+        </section>
+    </section>
+    <section class="card">
+        <section class="contact-card">
+            <div class="card-heading"></div>
+            <form action="form" id="contact" class="contact-form">
+                <section class="radio-style">
+                    <label for="private-or-company">Du söker kontakt i rollen som</label>
+                    <section class="input-group radio">
+                        <label for="private">Privat</label>
+                        <input type="radio" name="role" id="private" value="Privat" onclick="looseCompanyName()">
+                        <label for="company">Företag</label>
+                        <input type="radio" name="role" id="company" value="Företag" onclick="getCompanyName()">
+                        <input type="text" class="input-style" id="company-name" placeholder="Företagsnamn">
+                    </section>
+                </section>
+                <section class="input-group">
+                    <section>
+                        <label for="name">Namn</label>
+                    </section>
+                    <input type="text" class="input-style" id="first-name" placeholder="Förnamn">
+                    <input type="text" class="input-style" id="last-name" placeholder="Efternamn">
+                </section>
+                <section class="input-group">
+                    <section>
+                        <label for="contact-information">Kontaktuppgifter</label>
+                    </section>
+                    <input type="tel" class="input-style" name="phone-number" id="phone-number"
+                        placeholder="Telefonnummer">
+                    <input type="email" class="input-style" name="email" id="email" placeholder="Email">
+                </section>
+                <section class="input-group">
+                    <section>
+                        <label for="message">Meddelande</label>
+                    </section>
+                    <textarea name="message" id="message" rows="7" cols="45"></textarea>
+                </section>
+                <section class="green-buttons-contact">
+                    <button type="submit" id="submit">Submit</button>
+                </section>
+            </form>
+        </section>
+    </section>
+    <script>
+        function getCompanyName() {
+            document.getElementById("company-name").style.visibility = "visible";
+        }
+
+        function looseCompanyName() {
+            document.getElementById("company-name").style.visibility = "hidden";
+        }
+    </script>
+</body>
+
+</html>

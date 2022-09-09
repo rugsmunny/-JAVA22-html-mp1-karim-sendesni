@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+.top-margin-100 {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 75px;
+    padding-left: 100px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+p,
+li,
+form {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2831;
+}
+
+.index-heading {
+    padding: 0px 20px;
+    display: block;
+
+}
+
+.hollow-text {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.index-heading-links {
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    justify-items: auto;
+    align-content: center;
+    flex: content;
+    margin-left: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.ml-200 {
+    margin-left: 200px;
+}
+
+.index-pic-heading {
+    background: url(../img/IMG_55771.jpg) top left/cover no-repeat;
+    display: table-cell;
+    width: 352px;
+    padding: 0px 150px 600px 100px;
+}
+
+blockquote {
+    background-color: #2f2831;
+    max-width: fit-content;
+    font-weight: 200;
+    border-radius: 20px;
+    padding: 5px 10px 20px 10px;
+    flex: content;
+}
+
+.index-figure {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+figcaption {
+    text-align: end;
+}
+
+.index-card {
+    box-shadow: 40px 0px 0px black;
+    block-size: auto;
+    align-items: center;
+    margin-right: auto;
+    padding: 57px;
+    padding-bottom: 25px;
+    display: table-cell;
+    background-color: black;
+    color: aliceblue;
+}
+
+.inspo-card {
+    box-shadow: 40px 0px 0px black;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px 20px 12px 20px;
+    display: table-cell;
+    background-color: black;
+    color: aliceblue;
+}
+
+.contact-form {
+    block-size: auto;
+    align-items: center;
+    display: table-cell;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 15px 0px 0px 200px;
+}
+
+.contact-card {
+    box-shadow: 40px 0px 0px black;
+    block-size: auto;
+    align-items: center;
+    padding: 10px 200px 23px 200px;
+    display: table-cell;
+    background-color: black;
+    color: aliceblue;
+}
+
+.inspo-img {
+    border: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-items: center;
+    contain: content;
+}
+
+.inspo-img>img {
+    width: 276px;
+    height: 240px;
+}
+
+.inspo-width {
+    width: 80%;
+}
+
+.card-heading {
+    background: url(../img/html-css-js-black.jpg) center no-repeat;
+    display: table-cell;
+    justify-content: center;
+    width: 200px;
+    padding: 0px 200px 0px 0px;
+    border-left: 20px;
+    margin-left: 200px;
+}
+
+#message {
+    border-radius: 20px;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.input-group {
+    margin-bottom: 33px;
+}
+
+textarea {
+    resize: none;
+    border-bottom: none;
+    margin-top: 1rem;
+}
+
+.radio {
+    font-size: large;
+    font-weight: 300;
+    margin: 10px 0px;
+    width: fit-content;
+    border-bottom: none;
+}
+
+.radio #company {
+    margin-right: 80px;
+}
+
+#private,
+#company {
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+
+.input-style {
+    width: 47%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    font-size: 18px;
+    color: #ccc;
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-bottom: 1px;
+    box-shadow: none;
+    border-bottom: 1px solid;
+}
+
+.margin-0-1 {
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}
+
+section label {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        display: block;
+        flex-direction: column;
+    }
+}
+
+.index-heading-links button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    margin: 0px 20px;
+}
+
+.index-heading-links :hover {
+    color: #d1d7d8;
+    transition: all 0.4s ease;
+}
+
+.green-buttons-inspo li button {
+    background-color: #000;
+}
+
+a:link {
+    text-align: center;
+}
+
+.green-buttons-inspo a {
+    color: black;
+    width: 170px;
+    text-align: center;
+}
+
+.green-buttons-inspo li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 2px;
+}
+
+.green-buttons-contact button,
+.green-buttons-inspo button a {
+    border-radius: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #57b846;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 17px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+
+.green-buttons-inspo a:hover {
+    background-color: gray;
+}
+
+.green-buttons-contact button:hover {
+    background-color: gray;
+}
+
+#company-name {
+
+    visibility: hidden;
+}
